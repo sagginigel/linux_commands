@@ -1,0 +1,6 @@
+watch -n 0.1 find -cmin -0.1
+
+#This is the combination of the two commands description is as below.
+
+#watch -n 0.1: this will repeat the command followed to it every 0.1 seconds.
+#find -cmin 0.1: this will give all the files which got modified within 10 seconds.
